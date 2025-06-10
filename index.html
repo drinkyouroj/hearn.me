@@ -14,6 +14,8 @@
   <!-- <title>Justin Hearn | Systems Thinker & Storyteller</title> -->
   <title>Justin Hearn | Systems Thinker</title>
   <link rel="stylesheet" href="assets/css/style.css" />
+  <!-- marked.js for markdown rendering -->
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
   <script defer src="assets/js/theme-toggle.js"></script>
   <script defer src="assets/js/blog-loader.js"></script>
 </head>
@@ -29,7 +31,12 @@
       <a href="https://www.facebook.com/justin.hearn/" target="_blank">Facebook</a>
       <a href="https://gateway.lighthouse.storage/ipfs/bafkreie3agdt45iolinqt2iyoq3lviuqhlv7cvps4p45cukshkdpkdcjyi" target="_blank">Résumé</a>
     </div>
-    <button id="theme-toggle">Toggle Theme</button>
+    <div id="theme-switch-container">
+      <label class="switch">
+        <input type="checkbox" id="theme-toggle" />
+        <span class="slider round"></span>
+      </label>
+    </div>
   </header>
 
   <main>
