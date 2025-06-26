@@ -120,6 +120,16 @@
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
     transition: transform 0.2s, box-shadow 0.2s;
     cursor: pointer;
+    color: inherit; /* Ensure text color is inherited */
+  }
+
+  .dark-mode .blog-preview h3 {
+    color: var(--text-light);
+  }
+
+  .blog-preview h3 {
+    color: var(--text-light);
+    margin-top: 0;
   }
 
   .blog-preview:hover {
